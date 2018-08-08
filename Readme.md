@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Ekaterina Kuznetsova](https://up.htmlacademy.ru/htmlcss/22/user/814717).
-* Наставник: `Дмитрий Батманов`.
+* Наставник: `Dmitriy Batmanov https://htmlacademy.ru/profile/id10964`.
 
 ---
 
