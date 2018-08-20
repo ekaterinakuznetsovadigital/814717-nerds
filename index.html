@@ -1,12 +1,137 @@
+
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
+</head>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
+<body>
+    <header class="main-menu">
+      <nav class="main-navigation">
 
-  </body>
+            <a class="main-header-logo">
+                <img src="img/index-logo.svg" width="160px" height="65px" alt="Логотип Нердс>
+            </a>
+
+            <ul class="site-navigation">
+                <li> <a href="studio.html"> Студия </a> </li>
+                <li> <a href="clients.html"> Клиенты </a> </li>
+                <li> <a href="shop.html"> Магазин </a> </li>
+                <li> <a href="contacts.html"> Контакты </a> </li>
+            </ul>
+
+              <div class="basket">
+                  <a href="basket.html"> Корзина </a>
+              </div>
+      </nav>
+    </header>
+<main class="container">
+    <span class="slogan1">
+        <p> Долго, дорого, скурпулезно </p>
+    </span>
+    <span class="slogan2">
+        <p> Математически выверенный дизайн для вашего сайта или мобильного приложения </p>
+    </span>
+    <div>
+          <a href="studio.html">Узнать больше</a>
+    </div>
+    <div>
+      <img src="phones.jpg>
+    </div>
+    <h1 class="visually-hidden"> Нердс </h1>
+
+<section class="products">
+    <h2 class="visually-hidden"> Продукты </h2>
+    <ul class="products-list">
+        <li class="products-item">
+            <div> <img src="web.jpg" class="img-products" alt="Веб-сайты"> </div>
+            <h3> Веб-сайты </h3>
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a class="button" href="order-web.html"> Заказ </a>
+        </li>
+        <li class="products-item">
+            <div> <img src="application.jpg" class="img-products" alt="Приложения"> </div>
+            <h3> Приложения </h3>
+            <p>Покорите ТОП-10 приложений в AppStore и GooglePlay</p>
+            <a class="button" href="order-application.html"> Заказ </a>
+          </li>
+        <li class="products-item">
+            <div><img src="presentation.jpg" class="img-products" alt="Презентации"></div>
+            <h3> Презентации </h3>
+            <p>Вы даже не подозреваете насколько вы изумительны!</p>
+            <a class="button" href="order-presentation.html"> Заказ </a>
+         </li>
+    </ul>
+</section>
+
+<section class="description">
+    <h2> Мы маленькая, но гордая дизайн-студия из Краснодара </h2>
+    <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+    <h4> Выполняем заказы на разработку </h4>
+    <ul class="assortment-list">
+        <li>Веб-сайтов любой сложности</li>
+        <li>Мобильных приложений для iOS и Android</li>
+        <li>Слайдшоу и видео для корпоративных презентаций</li>
+    </ul>
+</section>
+
+<section class="studio">
+      <img src="nerds_balloons.jpg" class="nerds-balloons" alt="Нердс">
+      <h4> С 2004 года любим точность во всем </h4>
+      <ul class="advantages">
+          <li>
+              <h2>146% </h2>
+                  <p>Уровень самоотдачи </p>
+              </li>
+                  <h2> 100%</h2>
+                  <p>Соблюдение сроков </p>
+              <li>
+                  <h2>50% </h2>
+                  <p>Минимальная предоплата </p>
+              </li>
+     </ul>
+</section>
+<div class="partners">
+    <ul class="partners-logo">
+        <li>
+            <img src=htmlacademy.jpg" alt="партнеры">
+        </li>
+        <li>
+            <img src=borodinsky.jpg" alt="партнеры">
+        </li>
+        <li>
+            <img src=pink.jpg" alt="партнеры">
+        </li>
+        <li>
+            <img src=mishka.jpg" alt="партнеры">
+        </li>
+    </ul>
+</div>
+<div class="map">
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="https://embedgooglemaps.com/it/">embedgooglemaps IT</a></small></div><div><small><a href="https://mrpromokod.ru/m-video/">Больше</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(59.93899686019423,30.323659670459847),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(59.93899686019423,30.323659670459847)});infowindow = new google.maps.InfoWindow({content:'<strong>Название</strong><br>Б.конюшенная, 19/8 st petersburg, Russia<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+</div>
+<div class="contacts"
+    <h4>NERDS DESIGN STUDIO</h4>
+    <br>191186, Санкт-Петербург</br>
+    <br>ул.Б.Конюшенная, д.19/8</br>
+    <br>+7(812)275-75-75</br>
+</div>
+</main>
+<footer>
+    <div class="social-media">
+        <ul class=social>
+            <li> <a href="...url..."><i class="fa fa-vk"></a> </li>
+            <li> <a href="...url..."><i class="fa fa-facebook"></a> </li>
+            <li> <a href="...url..."><i class="fab fa-instagram"></a> </li>
+        </ul>
+    </div>
+    <span class="friendship">
+        <p>Давайте дружить, это выгодно!</p>
+    </span>
+    <span class="discount">
+        <p>Скидки 10% для друзей из социальных сетей!</p>
+    </span>
+</footer>
+    </body>
 </html>
