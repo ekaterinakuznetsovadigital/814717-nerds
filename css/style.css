@@ -1,0 +1,238 @@
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #28136;
+}
+a {
+    text-decoration: none;
+}
+.visually-hidden {
+    display: none;
+}
+.page-header {
+    font-size: 16px;
+    line-height: 30px;
+    min-height: 120px;
+    color: #000000;
+    background-color: #eeeeee;
+}
+.page-header-wrapper {
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.site-navigation {
+    display: flex;
+    width: 440px;
+    margin: 0;
+    padding-top: 83px;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.site-navigation-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 30px;
+}
+.basket a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-top: 83px;
+    display: flex;
+    padding-left: 245px;
+    flex-direction: row-reverse;
+}
+.site-navigation-wrapper {
+    display: flex;
+    width: 800px;
+}
+.nerds-logo-header {
+    padding-top: 50px;
+    padding-right: 200px;
+}
+.slider {
+    background-color: #eeeeee;
+    min-height: 400px;
+}
+.slide-wrapper {
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content-wrapper {
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.products {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    border-bottom: 1px solid gray;
+    margin-left: auto;
+}
+.products-list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+.products-item {
+    border: 1px solid black;
+    padding-right: 80px;
+    padding-left: 0px;
+}
+.img-products {
+    width: 300px;
+    height: 147px;
+}
+.product-title {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.product-subtitle {
+    font-size: 16px;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.left-col {
+    padding-top: 85px;
+}
+.advantages-table {
+    margin-left: 165px;
+    padding-top: 0;
+    width: 360px;
+    text-align:left;
+}
+.advantages-row-first {
+    order: 1;
+}
+.advantages-row-second {
+    order: 0;
+}
+.who-we-are {
+    font-size: 45px;
+    line-height: 45px;
+}
+.description-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+}
+.orders-to-develop {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color:"#111111";
+}
+.assortment-list-item {
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+    list-style: none;
+    padding-left: 20px;
+    position: relative;
+    }
+.assortment-list-item::before {
+     content: "—";
+     position: absolute;
+     width: 60px;
+     height: 24px;
+     color: #fb565a;
+     left: 0;
+     top: 50%;
+     margin-top:-12px;
+}
+caption {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.advantages-row-first-item {
+    width: 120px;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+.advantages-row-second-item {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    padding-bottom: 30px;
+}
+.percent {
+    vertical-align: top;
+    font-size: 30px;
+    }
+.nerds-balloons {
+    width: 360px;
+    height: 211px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 165px;
+}
+.partners-logo-wrapper {
+    display: flex;
+    width: 1200px;
+    min-height: 187px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.partners-logo {
+    display: flex;
+    width: 1200px;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid gray;
+}
+.footer-wrapper {
+    display: flex;
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-list {
+    display: flex;
+    list-style: none;
+    margin-right: 140px;
+}
