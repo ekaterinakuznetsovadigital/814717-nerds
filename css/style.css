@@ -90,6 +90,7 @@ a {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 15px;
+    font-weight: bold;
 }
 .page-header-logo svg {
     width: 160px;
@@ -447,7 +448,7 @@ a {
     list-style: none;
     flex-wrap: wrap;
 }
-.partners-logo {
+.partners-logo-list {
     display: flex;
     width: 1200px;
     min-height: 180px;
@@ -459,6 +460,7 @@ a {
     margin-right: auto;
     border-bottom: 1px solid #eeeeee;
     border-top: 1px solid #eeeeee;
+    padding: 0;
 }
 .partners-logo-item {
      opacity: 0.2;
@@ -532,6 +534,8 @@ a {
     width: 260px;
     min-height: 80px;
     margin-right: 10px;
+    margin-left: 0;
+    padding: 0;
 }
 .btn-social {
     list-style: none;
@@ -591,7 +595,10 @@ a {
     color: #000000;
     border-bottom: 2px solid  #fb565a;
 }
-/*как убрать косяк с тем, что вылаазит две линии при нажатии мышкой?*/
+/*как убрать косяк с тем, что вылазит две линии при нажатии мышкой?*/
+.calalog-link a:hover {
+
+}
 
 /*.catalog {
     display: flex;
@@ -647,7 +654,7 @@ a {
     background-color: gray;
 
 }
-.catalog-title {
+.catalog-item-title {
     position: absolute;
     left: 164px;
     top: 420px;
